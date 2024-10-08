@@ -1,0 +1,50 @@
+.footer {
+  background-color: #1a2d59; /* Custom background color */
+  color: white; /* Text color */
+}
+
+.footer-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #b0bec5; /* Lighter text for the description */
+}
+
+.footer-credits {
+  font-size: 13px;
+  color: #90a4ae;
+  margin-top: 20px;
+}
+
+.list-inline-item i {
+  font-size: 24px;
+  color: white;
+}
+
+.list-inline-item i:hover {
+  color: #f44336; /* Red hover effect */
+}
+
+@media (max-width: 768px) {
+  .footer-text {
+    text-align: start; /* Center the text on smaller screens */
+  }
+}

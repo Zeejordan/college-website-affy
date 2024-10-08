@@ -1,0 +1,46 @@
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-overlay {
+    z-index: 2;
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    z-index: 3;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  .slick-dots {
+    bottom: 20px;
+  }
+  
+  .slick-dots li button:before {
+    color: white;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 3;
+  }
+  

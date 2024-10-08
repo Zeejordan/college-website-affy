@@ -1,0 +1,22 @@
+
+
+.custom-card-body{
+    /* width:300px !important; */
+    color:white;
+    border-radius: 20px;
+    height:100% !important;
+    background-color: #1C2A48;
+    /* padding-bottom:150px !important; */
+    padding: 1.5rem;
+    position:sticky;
+    top : 0;
+}
+ 
+/* .custom-card{
+    position:sticky;
+    top:0;
+} */
+
+
+/*  */
+   

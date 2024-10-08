@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e803f760.css",
+    "main.js": "/static/js/main.2c009f65.js",
+    "static/js/453.4f988040.chunk.js": "/static/js/453.4f988040.chunk.js",
+    "static/media/college_photo_2.jpg": "/static/media/college_photo_2.7333b34cb5fe41ba3b53.jpg",
+    "static/media/college_photo_3.jpg": "/static/media/college_photo_3.e66a5fd0c83a27d70844.jpg",
+    "static/media/college_photo_4.jpg": "/static/media/college_photo_4.8eb5ecbd5efd110a28c1.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.e803f760.css.map": "/static/css/main.e803f760.css.map",
+    "main.2c009f65.js.map": "/static/js/main.2c009f65.js.map",
+    "453.4f988040.chunk.js.map": "/static/js/453.4f988040.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e803f760.css",
+    "static/js/main.2c009f65.js"
+  ]
+}

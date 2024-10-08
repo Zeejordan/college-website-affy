@@ -1,0 +1,102 @@
+.carousel-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-left {
+  width: 100%;
+  position: relative;
+  /* padding: 20px; */
+}
+
+.carousel-right {
+  width: 35%;
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+  height: 30%;
+  background-color: #1c2a48;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+}
+
+.learn-more-btn {
+  background-color: #f04;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.carousel-lines {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+.line {
+  width: 40px;
+  height: 5px;
+  background-color: grey;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.line.active {
+  background-color: #f04;
+}
+
+.carousel-right .card-content {
+  text-align: left;
+}
+
+.card-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.book-tour-btn {
+  background-color: #f04;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-mv {
+    display: none;
+  }
+
+  .mobile-view-img{
+    height: 70vh !important;
+  }
+}

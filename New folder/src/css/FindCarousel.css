@@ -1,0 +1,23 @@
+.carousel-caption-web {
+  position: absolute;
+  bottom: 300px; /* Adjust based on your design */
+  left: 50%;
+  transform: translateX(-50%);
+  animation: rise 0.5s ease forwards; /* Animation for text rising */
+}
+
+@keyframes rise {
+  from {
+    transform: translate(-50%, 30px); /* Start from below */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translate(-50%, 0); /* End at the final position */
+    opacity: 1; /* End visible */
+  }
+}
+
+.slide-text-web {
+  color: white; /* Change text color as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+}
